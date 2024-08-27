@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "images/corbett/image5.jpg",
   ];
   const corbettElement = document.getElementById("corbett-feature");
-  rotateImages(corbettElement, corbettImages, 8000); // Change every 8 seconds
+  rotateImages(corbettElement, corbettImages, 4000); // Change every 4 seconds
 
   // Bhigwan feature image rotation
   const bhigwanImages = [
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Ladakh feature image rotation
   const ladakhImages = ["images/ladakh/image2.jpg", "images/ladakh/image6.jpg"];
   const ladakhElement = document.getElementById("ladakh-feature");
-  rotateImages(ladakhElement, ladakhImages, 2000); // Change every 2 seconds
+  rotateImages(ladakhElement, ladakhImages, 5000); // Change every 6 seconds
 
   // Sahyadris feature image rotation
   const sahyadrisImages = [
