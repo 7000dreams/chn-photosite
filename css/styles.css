@@ -201,3 +201,72 @@ footer a:visited,
 footer a:active {
   color: #86bef3; /* Keep the color consistent for all states */
 }
+
+/* Base styles for larger screens (desktops) */
+/* These are already defined in your existing CSS */
+
+@media (max-width: 768px) {
+  /* Styles for tablets and smaller screens */
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header .logo {
+    margin-bottom: 10px;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header nav ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .content-container {
+    flex-direction: column;
+  }
+
+  .featured-image-grid {
+    flex-direction: column;
+  }
+
+  .grid-item {
+    width: 100%; /* One item per row */
+  }
+
+  .image-item {
+    flex: 1 1 100%; /* One item per row */
+  }
+
+  footer {
+    font-size: 0.9em;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Styles for small mobile screens */
+
+  header {
+    padding: 15px;
+  }
+
+  header .logo img {
+    max-height: 40px;
+  }
+
+  .grid-item {
+    width: 100%; /* Full width for images */
+    margin-bottom: 15px;
+  }
+
+  footer {
+    font-size: 0.8em;
+    padding: 10px;
+  }
+}
